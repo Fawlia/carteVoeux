@@ -46,9 +46,9 @@
 }
 
 #cadeau2 {
-	top: 45%;
-	left:25%;
-	width: 15%;
+	top: 48%;
+	left: 10%;
+	width: 30%;
 	height: 15%;
 	position: absolute;
 	z-index: 1000;
@@ -59,7 +59,7 @@
 #cadeau3 {
 	top: 50%;
 	left:65%;
-	width: 15%;
+	width: 30%;
 	height: 15%;
 	position: absolute;
 	z-index: 1000;
@@ -68,9 +68,9 @@
 }
 
 #cadeau4 {
-	top: 55%;
+	top: 65%;
 	left:45%;
-	width: 15%;
+	width: 30%;
 	height: 15%;
 	position: absolute;
 	z-index: 1000;
@@ -88,6 +88,8 @@
 	
 	position:absolute;
 }
+
+
 
 #sol {
 	background-color: #c1723e;
@@ -127,7 +129,7 @@ footer p{
 }
 .yohann{
 	
-	margin-right: 30px;
+	margin-right: 20px;
 	
 	
 }
@@ -138,8 +140,11 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	text-decoration: none;
-	font-weight: bold;
+	text-decoration:none;
+	color: white;
+}
+#Part1_Sapin:hover, #PArt2_Sapin:hover, #Part3_Sapin:hover, #Part4_Sapin:hover {
+	cursor: pointer;
 	
 }
 /* /////////////////////////////////////////////// */
@@ -234,5 +239,11 @@ a:hover{
   }
 }
 
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+  footer p {
+        font-size: 9px;
+        }
+    }
 
 

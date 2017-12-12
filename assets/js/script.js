@@ -150,7 +150,7 @@ function showBoule(){
 	*/
 	$('.cach').animate({  textIndent: 0 }, {
 		step: function(now,fx) {
-		  $(this).css('-webkit-transform','rotate('+45+'deg)'); 
+		  $(this).css('-webkit-transform','rotate('+60+'deg)'); 
 		},
 		duration:'slow'
 		},'linear');
@@ -165,7 +165,7 @@ function showAcs(){
 	
 	$('.cache1').animate({  textIndent: 0 }, {
 		step: function(now,fx) {
-		  $(this).css('-webkit-transform','rotate('+45+'deg)'); 
+		  $(this).css('-webkit-transform','rotate('+90+'deg)'); 
 		},
 		duration:'slow'
 		},'linear');
@@ -179,7 +179,7 @@ function showFete(){
 	
 	$('.cache').animate({  textIndent: 0 }, {
 		step: function(now,fx) {
-		$(this).css('-webkit-transform','rotate('+45+'deg)'); 
+		$(this).css('-webkit-transform','rotate('+90+'deg)'); 
 		},
 		duration:'slow'
 		},'linear');
